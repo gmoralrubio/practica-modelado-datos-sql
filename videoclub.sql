@@ -662,10 +662,12 @@ from tmp_videoclub tv;
 
 
 -- Películas disponibles para alquilar en este momento
-select pe.titulo, count(*) as disponibles
+select pe.titulo, count(distinct c.id_copia) as disponibles
 from prestamo p left join copia c on p.id_copia = c.id_copia
 inner join pelicula pe on pe.id_pelicula = c.id_pelicula
 where p.fecha_devolucion is not null
 group by pe.titulo
 order by pe.titulo;
+
+
 
