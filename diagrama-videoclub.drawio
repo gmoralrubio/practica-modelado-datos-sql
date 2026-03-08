@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.1">
   <diagram name="Página-1" id="quyCfGXJxhpvqYCNwL_c">
-    <mxGraphModel dx="1388" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1665" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -227,7 +227,7 @@
             <mxRectangle height="30" width="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FyWy5CUw057eujy8yRGB-73" parent="FyWy5CUw057eujy8yRGB-71" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="DNI_socio (Texto)" vertex="1">
+        <mxCell id="FyWy5CUw057eujy8yRGB-73" parent="FyWy5CUw057eujy8yRGB-71" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="DNI (Texto)" vertex="1">
           <mxGeometry height="30" width="170" x="30" as="geometry">
             <mxRectangle height="30" width="170" as="alternateBounds" />
           </mxGeometry>
@@ -273,9 +273,6 @@
         </mxCell>
         <mxCell id="FyWy5CUw057eujy8yRGB-74" edge="1" parent="1" source="FyWy5CUw057eujy8yRGB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;" target="FyWy5CUw057eujy8yRGB-71">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FyWy5CUw057eujy8yRGB-75" parent="1" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="&lt;div&gt;1. Un socio puede tener varios préstamos&lt;/div&gt;&lt;div&gt;2. Una película puede estar en varios préstamos&lt;/div&gt;&lt;div&gt;3. Una película puede tener varias copias&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="450" x="580" y="200" as="geometry" />
         </mxCell>
         <mxCell id="FyWy5CUw057eujy8yRGB-76" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="Copia" vertex="1">
           <mxGeometry height="90" width="200" x="830" y="370" as="geometry" />
